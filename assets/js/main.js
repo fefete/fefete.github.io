@@ -153,7 +153,7 @@
 				.on('click', 'a', function(event) {
 
 					var href = $(this).attr('href');
-
+					var target = $(this).attr('target');
 					event.preventDefault();
 					event.stopPropagation();
 
@@ -165,7 +165,11 @@
 							return;
 
 						window.setTimeout(function() {
-							window.location.href = href;
+							if(target == '_blank'){
+								window.open(href);
+							}else{
+								window.location.href = href;
+							}
 						}, 350);
 
 				})
