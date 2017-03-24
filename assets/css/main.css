@@ -18,6 +18,10 @@
 		vertical-align: baseline;
 	}
 
+	div .inner{
+		   margin-bottom: 20px;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1644,7 +1648,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #EEE;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -1673,7 +1677,7 @@
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #ffffff;
+		color: #EEE;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
@@ -2286,7 +2290,7 @@
 		input[type="radio"]:checked + label:before {
 			background: #585858;
 			border-color: #585858;
-			color: #ffffff;
+			color: #EEE;
 			content: '\f00c';
 		}
 
@@ -2548,7 +2552,7 @@
 		.button.special {
 			box-shadow: none;
 			background-color: #585858;
-			color: #ffffff !important;
+			color: #EEE !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -2699,7 +2703,7 @@
 				padding: 1em;
 				border-radius: 4px;
 				border-bottom: 0;
-				color: #ffffff;
+				color: #EEE;
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;
@@ -2710,7 +2714,7 @@
 				}
 
 				.tiles article > a:hover {
-					color: #ffffff !important;
+					color: #EEE !important;
 				}
 
 				.tiles article > a h2 {
@@ -3017,7 +3021,7 @@
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
 		background: #585858;
-		color: #ffffff;
+		color: #EEE;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
@@ -3197,7 +3201,8 @@
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #666;
+		color: #EEE;
 	}
 
 		#footer > .inner {
